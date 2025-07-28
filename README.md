@@ -30,7 +30,7 @@ Template bucket for [Scoop](https://scoop.sh), the Windows command-line installe
 After manifests have been committed and pushed, run the following:
 
 ```pwsh
-scoop bucket add powerscoop https://github.com/piperun/PowerScoop/tree/master
+scoop bucket add powerscoop https://github.com/piperun/PowerScoop
 scoop install <bucketname>/<manifestname>
 ```
 
