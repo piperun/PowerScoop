@@ -14,7 +14,7 @@
   },
   "bin": "dcm.exe",
   "notes": [
-    "DCM is licensed software; see https://dcm.dev/eula/ and https://dcm.dev/ for plans and activation."
+    "DCM is licensed software; see https://dcm.dev/eula/ and https://dcm.dev/ for plans and activation.",
   ]
     "checkver": {
     "github": "CQLabs/homebrew-dcm"
