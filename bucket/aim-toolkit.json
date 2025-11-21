@@ -9,7 +9,7 @@
   "architecture": {
     "64bit": {
       "url": "https://sourceforge.net/projects/aim-toolkit/files/20251027/AIMtk.zip/download",
-      "hash": "<PUT_SHA256_OF_AIMtk.zip_HERE>"
+      "hash": "f81501e5a1910ed3a4b6b8939c0c986afa05affc3bb4f52b6f589f209ac4d9cc"
     }
   },
   "bin": [
