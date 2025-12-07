@@ -1,0 +1,19 @@
+{
+    "version": "1.0.3",
+    "description": "A tool to install mods for Crusader Kings III automatically.",
+    "homepage": "https://github.com/ISNeiron/CK3-Mod-Installer",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/ISNeiron/CK3-Mod-Installer/releases/download/v1.0.3/CK3.Mod.Installer.zip",
+    "hash": "d135d0d867c2688863f820258169b1834241e3305286576850c95786411516e8",
+    "bin": "CK3 Mod Installer.exe",
+    "shortcuts": [
+        [
+            "CK3 Mod Installer.exe",
+            "CK3 Mod Installer"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ISNeiron/CK3-Mod-Installer/releases/download/v$version/CK3.Mod.Installer.zip"
+    }
+}
