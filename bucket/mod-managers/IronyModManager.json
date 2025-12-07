@@ -1,0 +1,27 @@
+{
+    "version": "1.25.155",
+    "description": "A comprehensive mod manager for Paradox Interactive games (Stellaris, EU4, HOI4, etc).",
+    "homepage": "https://github.com/bcssov/IronyModManager",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bcssov/IronyModManager/releases/download/v1.25.155/IronyModManager_v1.25.155_win-x64.zip",
+            "hash": "master:027f6782ab7870a4a6eecdfa7942735741639d486aa63088b9015c9966113b18"
+        }
+    },
+    "bin": "IronyModManager.exe",
+    "shortcuts": [
+        [
+            "IronyModManager.exe",
+            "IronyModManager"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bcssov/IronyModManager/releases/download/v$version/IronyModManager_v$version_win-x64.zip"
+            }
+        }
+    }
+}
