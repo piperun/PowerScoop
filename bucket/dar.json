@@ -6,10 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://sourceforge.net/projects/dar/files/dar/2.8.2/dar64-2.8.2-win64.zip/download#/dar64-2.8.2-win64.zip",
-            "hash": "e95cb619aacd05e6d77687d7a6b5d3a94cad7b82b3dedf4555a5237410de5e56"
+            "hash": "e95cb619aacd05e6d77687d7a6b5d3a94cad7b82b3dedf4555a5237410de5e56",
+            "extract_dir": "dar64-2.8.2-win64"
         }
     },
-    "bin": "dar.exe",
+    "bin": "bin\\dar.exe",
     "checkver": {
         "url": "https://sourceforge.net/projects/dar/files/dar/",
         "regex": "/projects/dar/files/dar/([\\d.]+)/\""
@@ -17,7 +18,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/dar/files/dar/$version/dar64-$version-win64.zip/download#/dar64-$version-win64.zip"
+                "url": "https://sourceforge.net/projects/dar/files/dar/$version/dar64-$version-win64.zip/download#/dar64-$version-win64.zip",
+                "extract_dir": "dar64-$version-win64"
             }
         }
     }
