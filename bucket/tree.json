@@ -1,37 +1,37 @@
 {
-  "version": "1.2.2",
-  "description": "Cross-platform tree CLI implemented in Rust.",
-  "homepage": "https://peteretelej.github.io/tree/",
-  "license": "MIT",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/peteretelej/tree/releases/download/v1.2.2/tree-v1.2.2-Windows-64bit.zip",
-      "hash": "63721a2831d88daa3834fb841acc078496362888838124b695ef641120e0cb9d"
-    },
-    "32bit": {
-      "url": "https://github.com/peteretelej/tree/releases/download/v1.2.2/tree-v1.2.2-Windows-32bit.zip",
-      "hash": "0485614234766dc624525a1542459d515825ed0245b3bb556cb7e4a760c8cc8e"
-    },
-    "arm64": {
-      "url": "https://github.com/peteretelej/tree/releases/download/v1.2.2/tree-v1.2.2-Windows-arm64.zip",
-      "hash": "dc2fd51e025aa1fadf1eaa5e56be3f4f49fae31ecd1ad940fde577021e2ce686"
-    }
-  },
-  "bin": "tree.exe",
-  "checkver": {
-    "github": "https://github.com/peteretelej/tree"
-  },
-  "autoupdate": {
+    "version": "1.3.0",
+    "description": "Cross-platform tree CLI implemented in Rust.",
+    "homepage": "https://peteretelej.github.io/tree/",
+    "license": "MIT",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/peteretelej/tree/releases/download/v$version/tree-v$version-Windows-64bit.zip"
-      },
-      "32bit": {
-        "url": "https://github.com/peteretelej/tree/releases/download/v$version/tree-v$version-Windows-32bit.zip"
-      },
-      "arm64": {
-        "url": "https://github.com/peteretelej/tree/releases/download/v$version/tree-v$version-Windows-arm64.zip"
-      }
+        "64bit": {
+            "url": "https://github.com/peteretelej/tree/releases/download/v1.3.0/tree-v1.3.0-Windows-64bit.zip",
+            "hash": "c7433d56ebbb3708e04f9044e0089fd3c47fc1258760490ffbfbd8439f78869a"
+        },
+        "32bit": {
+            "url": "https://github.com/peteretelej/tree/releases/download/v1.3.0/tree-v1.3.0-Windows-32bit.zip",
+            "hash": "1d8f094d3c600407530ebd257d69ca1682848878b4ec58466cc92d7374277d28"
+        },
+        "arm64": {
+            "url": "https://github.com/peteretelej/tree/releases/download/v1.3.0/tree-v1.3.0-Windows-arm64.zip",
+            "hash": "54000d2e17b80000e74ece63d9d13be2a2d7b31d10de32df82f61196e87d2b30"
+        }
+    },
+    "bin": "tree.exe",
+    "checkver": {
+        "github": "https://github.com/peteretelej/tree"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/peteretelej/tree/releases/download/v$version/tree-v$version-Windows-64bit.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/peteretelej/tree/releases/download/v$version/tree-v$version-Windows-32bit.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/peteretelej/tree/releases/download/v$version/tree-v$version-Windows-arm64.zip"
+            }
+        }
     }
-  }
 }
