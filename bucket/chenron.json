@@ -1,12 +1,12 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Chenron",
-  "homepage": "https://github.com/piperun/chenron",
+  "homepage": "https://github.com/piperun/chenron-flutter",
   "license": "AGPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/piperun/chenron/releases/download/v1.0.0/chenron-1.0.0-windows-x64.zip",
-      "hash": "4046df6073d68fd95a1fef818a7b66afba6040fe85a683104451f961fad5477e"
+      "url": "https://github.com/piperun/chenron-flutter/releases/download/chenron-v1.1.0/chenron-1.1.0-windows-x64.zip",
+      "hash": "9af2b2b84baa9bb5b6b880f1896a7c8356bd76cfbc0535e1027e6cb149908329"
     }
   },
   "bin": "chenron.exe",
@@ -17,12 +17,13 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/piperun/chenron"
+    "github": "https://github.com/piperun/chenron-flutter",
+    "regex": "chenron-v([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/piperun/chenron/releases/download/v$version/chenron-$version-windows-x64.zip"
+        "url": "https://github.com/piperun/chenron-flutter/releases/download/chenron-v$version/chenron-$version-windows-x64.zip"
       }
     }
   }
