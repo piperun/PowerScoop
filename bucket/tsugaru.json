@@ -1,0 +1,33 @@
+{
+  "version": "20251206",
+  "description": "FM Towns / Marty emulator \"Tsugaru\"",
+  "homepage": "https://github.com/captainys/TOWNSEMU",
+  "license": "BSD-3-Clause",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/captainys/TOWNSEMU/releases/download/v20251206/windows_binary_latest.zip",
+      "hash": "aac8fc7c29e637b18a1df35c340491a6cd542823c23fb4f0c277e7bab0d90835"
+    }
+  },
+  "bin": [
+    "Tsugaru_GUI.exe",
+    "Tsugaru_CUI.exe"
+  ],
+  "shortcuts": [
+    [
+      "Tsugaru_GUI.exe",
+      "Tsugaru (FM Towns Emulator)"
+    ]
+  ],
+  "checkver": {
+    "url": "https://github.com/captainys/TOWNSEMU/releases",
+    "regex": "Auto Release v([0-9]{8}[a-z]?)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/captainys/TOWNSEMU/releases/download/v$version/windows_binary_latest.zip"
+      }
+    }
+  }
+}
