@@ -1,0 +1,18 @@
+{
+    "version": "2026-04-19",
+    "description": "Fluffy Manager 5000 — mod manager, downloader, and trainer for Resident Evil titles, Devil May Cry 5, SoulCalibur VI, and more",
+    "homepage": "https://www.fluffyquack.com/modding/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.fluffyquack.com/modding/"
+    },
+    "url": "https://www.fluffyquack.com/tools/modmanager.zip",
+    "hash": "9f157ff9180ea28833c03d60316e8d22f923ddd39a1e4b9d7e90c7ac8c932d94",
+    "bin": "modmanager.exe",
+    "shortcuts": [
+        [
+            "modmanager.exe",
+            "Fluffy Manager 5000"
+        ]
+    ]
+}

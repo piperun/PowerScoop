@@ -1,0 +1,12 @@
+{
+    "version": "2026-04-19",
+    "description": "Modding tool for RE Engine games (Resident Evil 2/3, Devil May Cry 5) — extracts PAK files and converts textures to/from DDS",
+    "homepage": "https://www.fluffyquack.com/tools/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.fluffyquack.com/tools/"
+    },
+    "url": "https://www.fluffyquack.com/tools/REtool.zip",
+    "hash": "03c1e2a4672d3cbb5d5920641390931c74f1808b4f6d46a05bebb82be7b48f07",
+    "bin": "REtool.exe"
+}
