@@ -1,5 +1,5 @@
 {
-    "version": "20260303",
+    "version": "20260420",
     "description": "AIM Toolkit is a ramdisk and image-mounting toolkit for Windows, intended to replace ImDisk Toolkit and fix compatibility issues with recent Windows versions.",
     "homepage": "https://sourceforge.net/projects/aim-toolkit/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/aim-toolkit/files/20260303/AIMtk.zip/download",
-            "hash": "1cde89113802d46dd018de0a6a73bb7e44518c986b920c5388317b612abea077"
+            "url": "https://sourceforge.net/projects/aim-toolkit/files/20260420/AIMtk.zip/download",
+            "hash": "83b88e533dd10917ee38e6b2de3181c7dabb830c9afc76cea366ddc662bbc400"
         }
     },
     "bin": [
