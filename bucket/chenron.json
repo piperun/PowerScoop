@@ -1,12 +1,12 @@
 {
-    "version": "1.9.0",
+    "version": "1.10.0",
     "description": "Chenron",
     "homepage": "https://github.com/piperun/chenron",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/piperun/chenron/releases/download/chenron-v1.9.0/chenron-1.9.0-windows-x64.zip",
-            "hash": "b813ce95f54d28fe96f5f6a1d4ac965d6df17bba8329a0bcbba9e0f903a6fe50"
+            "url": "https://github.com/piperun/chenron/releases/download/chenron-v1.10.0/chenron-1.10.0-windows-x64.zip",
+            "hash": "89898b58de47a553be64a2a8acec16070bd1e92e1b35c6255de6f792a574afa6"
         }
     },
     "bin": "chenron.exe",
