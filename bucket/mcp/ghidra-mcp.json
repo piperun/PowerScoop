@@ -1,5 +1,5 @@
 {
-    "version": "5.7.2",
+    "version": "5.8.0",
     "description": "Ghidra MCP Server — 225 MCP tools exposing Ghidra's analysis capabilities to AI clients (Claude, Cursor, etc.) via a Python bridge. Requires manual GUI step in Ghidra after install — see notes.",
     "homepage": "https://github.com/bethington/ghidra-mcp",
     "license": "Apache-2.0",
@@ -8,11 +8,11 @@
         "main/uv"
     ],
     "url": [
-        "https://github.com/bethington/ghidra-mcp/releases/download/v5.7.2/GhidraMCP-5.7.2.zip#/GhidraMCP.bin",
-        "https://github.com/bethington/ghidra-mcp/releases/download/v5.7.2/bridge_mcp_ghidra.py"
+        "https://github.com/bethington/ghidra-mcp/releases/download/v5.8.0/GhidraMCP-5.8.0.zip#/GhidraMCP.bin",
+        "https://github.com/bethington/ghidra-mcp/releases/download/v5.8.0/bridge_mcp_ghidra.py"
     ],
     "hash": [
-        "9a8774b7a8c4b97c2f444004be067d124be76f582769594ea3853b11f880601b",
+        "48eb238381cece4bc555eb02afa7d85c40284a174d41b19f45f889c07fe17800",
         "b6a81b81e46d6753c3c57db9e28c3bc507741a0e1c51da70c446555c951571fe"
     ],
     "installer": {
