@@ -1,5 +1,5 @@
 {
-    "version": "2.2.6",
+    "version": "2.3.2",
     "description": "File archive manager with game-mod archive support, primarily targeting the Fluffy mod manager layout. Handles format conversion, batch operations, and flattening/standardizing archives via pre-defined rules; ships a DLSite metadata plugin. Built in Rust with egui.",
     "homepage": "https://codeberg.org/0xdev/Arclain",
     "license": "GPL-3.0-or-later",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://codeberg.org/0xdev/Arclain/releases/download/2.2.6/arclain-2.2.6-windows-x64.exe#/arclain.exe",
-            "hash": "1f44d6c68b766902caf266b39edfe906372d5c6cc352f9cac1217bd62592f552"
+            "url": "https://codeberg.org/0xdev/Arclain/releases/download/2.3.2/arclain-2.3.2-windows-x64.exe#/arclain.exe",
+            "hash": "92f6f083b195f1d10d1fcd9fb7c269540f63dcff20fdfde9bf283568161a5112"
         }
     },
     "bin": "arclain.exe",
