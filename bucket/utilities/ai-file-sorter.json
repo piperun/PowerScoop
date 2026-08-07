@@ -1,12 +1,12 @@
 {
-    "version": "1.9.0",
+    "version": "1.9.1",
     "description": "Cross-platform desktop app that uses AI to categorize files and suggest cleaner, descriptive names for images, documents, and media. Runs privately on-device with local GGUF models via bundled llama.cpp (CUDA/Vulkan/CPU backends); can optionally use remote LLMs (OpenAI, Gemini, or any OpenAI-compatible API).",
     "homepage": "https://filesorter.app",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/ai-file-sorter/files/Releases/AIFileSorter_1.9.0_Portable.zip/download#/AIFileSorter_1.9.0_Portable.zip",
-            "hash": "eca020fc263c747d28c5bcca05477d4b06cb334c73211b969a81b5df9dd36832",
+            "url": "https://sourceforge.net/projects/ai-file-sorter/files/Releases/AIFileSorter_1.9.1_Portable.zip/download#/AIFileSorter_1.9.1_Portable.zip",
+            "hash": "82c97ee6eef806b73f5996e31e5f7bf2dc415bae966264180d3c8c7a9c199c96",
             "extract_dir": "AI File Sorter"
         }
     },
