@@ -1,5 +1,5 @@
 {
-    "version": "1.39.1",
+    "version": "1.39.2",
     "description": "DCM is a toolbox that helps you identify and solve problems in your Dart and Flutter code.",
     "homepage": "https://dcm.dev/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CQLabs/homebrew-dcm/releases/download/1.39.1/dcm-windows-release.zip",
-            "hash": "1b601ad32b5984eb2d6443b04becb3f56eaccfb1e4b591166afb6ee41265f06c"
+            "url": "https://github.com/CQLabs/homebrew-dcm/releases/download/1.39.2/dcm-windows-release.zip",
+            "hash": "ed3b52669ef194a71ccbc23f6804f079f548265260b10ac6a56405f3f0606174"
         }
     },
     "bin": "dcm.exe",
