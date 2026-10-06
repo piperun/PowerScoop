@@ -40,3 +40,28 @@ To make a new manifest contribution, please read the [Contributing
 Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
 and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
 wiki page.
+
+## Tests
+
+Install the test modules from PowerShell Gallery in the shell you will use
+for testing (PowerShell 7 or Windows PowerShell 5.1):
+
+```powershell
+Install-Module -Name Pester -RequiredVersion 5.9.1 -Repository PSGallery -Scope CurrentUser -Force -AllowClobber
+Install-Module -Name BuildHelpers -RequiredVersion 2.0.16 -Repository PSGallery -Scope CurrentUser -Force
+```
+
+With Scoop installed, run the complete suite from the repository root:
+
+```powershell
+.\bin\test.ps1
+```
+
+The test runner and both CI jobs use these exact module versions. If Scoop
+is checked out separately, set `SCOOP_HOME` to that checkout first.
+
+Keep profiling output, PDB files, and private rollback scripts outside this
+checkout. Scoop's style checks scan every file in the working directory,
+including untracked files. They check CRLF line endings and other text
+formatting, so binary diagnostic files cause false failures. Use a clean
+checkout to verify the committed project without moving saved diagnostics.
