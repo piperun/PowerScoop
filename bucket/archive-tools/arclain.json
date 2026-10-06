@@ -1,5 +1,5 @@
 {
-    "version": "2.3.2",
+    "version": "3.1.4",
     "description": "File archive manager with game-mod archive support, primarily targeting the Fluffy mod manager layout. Handles format conversion, batch operations, and flattening/standardizing archives via pre-defined rules; ships a DLSite metadata plugin. Built in Rust with egui.",
     "homepage": "https://codeberg.org/0xdev/Arclain",
     "license": "GPL-3.0-or-later",
@@ -9,8 +9,9 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://codeberg.org/0xdev/Arclain/releases/download/2.3.2/arclain-2.3.2-windows-x64.exe#/arclain.exe",
-            "hash": "92f6f083b195f1d10d1fcd9fb7c269540f63dcff20fdfde9bf283568161a5112"
+            "url": "https://codeberg.org/0xdev/Arclain/releases/download/3.1.4/arclain-3.1.4-windows-x64.zip",
+            "hash": "ff0a4a80c7cab9d82fec0da7b8ccb452c218845de22033eafd1619d16237107d",
+            "extract_dir": "arclain-3.1.4-windows-x64"
         }
     },
     "bin": "arclain.exe",
@@ -31,11 +32,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://codeberg.org/0xdev/Arclain/releases/download/$version/arclain-$version-windows-x64.exe#/arclain.exe"
+                "url": "https://codeberg.org/0xdev/Arclain/releases/download/$version/arclain-$version-windows-x64.zip",
+                "extract_dir": "arclain-$version-windows-x64"
             }
         },
         "hash": {
-            "url": "https://codeberg.org/0xdev/Arclain/releases/download/$version/arclain-$version-windows-x64.exe.sha256",
+            "url": "https://codeberg.org/0xdev/Arclain/releases/download/$version/arclain-$version-windows-x64.zip.sha256",
             "regex": "([a-fA-F0-9]{64})"
         }
     }
