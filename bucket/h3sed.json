@@ -1,18 +1,18 @@
 {
-    "version": "3.8",
+    "version": "4.0",
     "description": "Heroes III Savegame Editor",
     "homepage": "https://suurjaak.github.io/h3sed",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://erki.lap.ee/downloads/h3sed/h3sed_3.8.exe",
-            "hash": "23a4bc7a5f1504f737a4cf94834653c45d1a6ceded28f050d176610ecb4c8291"
+            "url": "https://erki.lap.ee/downloads/h3sed/h3sed_4.0.exe",
+            "hash": "fa5aa88f6aceec8a393c8231f82b26e481b37c46fec4f95d0f9d7539767d6010"
         }
     },
-    "bin": "h3sed_3.8.exe",
+    "bin": "h3sed_4.0.exe",
     "shortcuts": [
         [
-            "h3sed_3.8.exe",
+            "h3sed_4.0.exe",
             "H3sed"
         ]
     ],
@@ -25,6 +25,13 @@
             "64bit": {
                 "url": "https://erki.lap.ee/downloads/h3sed/h3sed_$version.exe"
             }
-        }
+        },
+        "bin": "h3sed_$version.exe",
+        "shortcuts": [
+            [
+                "h3sed_$version.exe",
+                "H3sed"
+            ]
+        ]
     }
 }
